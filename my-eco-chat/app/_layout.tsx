@@ -51,7 +51,9 @@ export default function RootLayout() {
 // import * as SplashScreen from 'expo-splash-screen';
 // import { ActionsProvider } from '../contexts/ActionsContext';
 // import { AccessibilityProvider } from '../contexts/AccessibilityContext';
-
+// import { useColorScheme } from 'react-native';
+// 
+// // Prevent the splash screen from auto-hiding
 // SplashScreen.preventAutoHideAsync();
 
 // export default function RootLayout() {
