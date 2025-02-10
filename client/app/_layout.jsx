@@ -2,7 +2,7 @@ import { View, Text } from 'react-native'
 import React from 'react'
 import { Tabs } from 'expo-router'
 import TabBar from '../components/TabBar'
-
+//This file is the main layout for the whole app
 const _layout = () => {
   return (
     <Tabs
