@@ -64,7 +64,7 @@ const AnimatedTabBar = ({ state: { index: activeIndex, routes }, navigation, des
         // We can use the layout values
         // Copy layout to avoid errors between different threads
         // We subtract 25 so the active background is centered behind our TabBar Components
-        // 20 pixels is the width of the left part of the svg (the quarter circle outwards)
+        // 20 pixels is the width of the left part of the svg (the quarter circle outwards) so user can be more clear about the difference
         // 5 pixels come from the little gap between the active background and the circle of the TabBar Components
         return [...layout].find(({ index }) => index === activeIndex).x - 25;
         // Calculate the offset new if the activeIndex changes (e.g. when a new tab is selected)
